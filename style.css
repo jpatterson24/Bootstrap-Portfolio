@@ -1,0 +1,381 @@
+
+body {
+    background: url(round.png);
+    font-family: 'Arial','Heletica Neue', Helvetica, sans-serif;
+}
+    /*.panel-default {*/
+    /*border-color: #ddd;*/
+    /*position: relative;*/
+    /*left: 19px;*/
+    /*padding-left: 0px;*/
+/*}*/
+
+.panel-default {
+    border-color: #ddd;
+    position: relative;
+    left: -23px;
+    padding-left: 0px;
+    position: relative;
+    margin-left: 45px;
+    text-align: center;
+}
+
+
+.col-md-3 {
+    position: relative;
+    margin-left: 30px;
+    width: 25%;
+}
+
+
+.col-md-3-contact {
+    position: relative;
+    margin-left: 30px;
+    width: 25%;
+}
+
+   .panel-footer {
+    padding: 12px 587px;
+    margin-left: -197px;
+    margin-right: -195px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 230px;
+}
+/*
+.panel-footer {
+    padding: 12px 587px;s
+    margin-left: -197px;
+    margin-right: -195px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 260px;
+}
+*/
+
+p {
+    margin: 0px 0px 10px;
+    position: relative;
+    left: 175px;
+}
+
+
+.h1, h1 {
+    font-size: 36px;
+    background-color: white;
+    font-family: 'Arial','Heletica Neue', Helvetica, sans-serif;
+    padding-bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #4aaaa5;
+}
+
+.col-md-7 {
+    width: 58.33333333%;
+    background-color: white;
+}
+
+
+
+.container-contact {
+    position: relative;
+    left: 174px;
+    top: 190px;
+}
+#contactPanel {
+    border-color: #ddd;
+    position: relative;
+    left: -23px;
+    padding-left: 0px;
+    position: relative;
+    margin-left: 45px;
+    text-align: center;
+    position: relative;
+    left: 633px;
+    bottom: 411px;
+}
+#contactPort {
+    border-color: #ddd;
+    position: relative;
+    left: -23px;
+    padding-left: 0px;
+    position: relative;
+    margin-left: 150px;
+    text-align: center;
+    position: relative;
+    left: 703px;
+    bottom: 1195px;
+}
+#contactMe{
+    border-color: #ddd;
+    position: relative;
+    left: 642px;
+    padding-left: 0px;
+    position: relative;
+    margin-left: 45px;
+    text-align: center;
+    bottom: 382px;
+    margin-left: 36px;
+}
+.row-container {
+    position: relative;
+    left: 734px;
+    bottom: 286px;
+     width: 231px; 
+}
+
+.panel-default.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    text-align: center;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.428571;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+    width: 36%;
+    position: relative;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.navbar-default .navbar-brand {
+    /*width: 282px;*/
+    /*height: 90px;*/
+    /*background: #4aaaa5;*/
+    /*float: left;*/
+    font-family: 'Georgia',Times, Times New Roman, serif;
+    /*text-align: center;*/
+    /*line-height: 90px;*/
+    color: #fff;
+    /*font-weight: 700;*/
+    /*font-size: 30px;*/
+    /*text-decoration: none;*/
+    color: #4aaaa5;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 174px;
+    width: 209%;
+    right: 194px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0px 20px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    padding: 13px;
+}
+.name {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 548px;
+}
+#aboutMeIMG {
+ height: 200px;
+ width: 280px;
+}
+
+img {
+    vertical-align: middle;
+    height: 200px;
+    width: 189px;
+}
+
+
+.social{
+    height: 80px;
+    width: 80px;
+}
+.panel-body-portfolio {
+    padding: 16px;
+    background-color: #4aaaa5;
+}
+.panel-body {
+    padding: 15px;
+    border: 36px white;
+    background-color: #4aaaa5;
+    font-color: white;
+    color: white;
+    border: 17px;
+    border-style: solid;
+}
+
+@media screen and (max-width: 640px) {
+
+   .navbar-default .navbar-brand {
+    width: 640px;
+    height: 90px;
+    background: #4aaaa5 ;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    }
+
+   nav {
+    float: right;
+    margin-top: 25px;
+    width: 640px;
+    text-align: center;
+}
+
+   nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef ;
+    padding-left: 20px;
+    line-height: 18px;
+    padding-right: 54px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    /* margin-right: 180px; */
+    margin: 0 40px 0;
+    width: 88%;
+    max-width: 640px;
+    float: left;
+    border: 1px solid #ddd
+}
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 640px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-right: 27px;
+}
+
+.work {
+    width: 493px;
+    height: 232px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+    }
+
+
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 189px;
+    }
+
+.navbar-default .navbar-brand{
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5 ;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 25px;
+    }
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0;
+    width: 100%;
+    max-width: 723px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    }
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 720px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-right: 22px;
+     margin-left: 47px; 
+    }
+
+
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+nav {
+    float: left;
+    margin-top: 25px;
+    margin-left: 281px;
+}
+
+.navbar-default .navbar-brand {
+    width: 250px;
+    height: 90px;
+    background: #4aaaa5 ;
+    float: left;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 65px;
+}
+
+.main-section {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 502px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-left: 65px;
+    height: 702px;
+}
+
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-right: 95px;
+    }
+
